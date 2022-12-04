@@ -6,39 +6,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <a class="logo-top" href="/WebStudio"
-      ><span class="logo-secondary">Web</span>Studio</a
-    >
-    <nav class="menu robotofonts">
-      <ul>
-        <li class="active-page">
-          <a class="home-page" href="index.html">Agencja</a>
-        </li>
-        <li>
-          <a class="current-page" href="portfolio.html">Portfolio</a>
-        </li>
-        <li><a class="contact-page" href="/kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
-    <aside class="robotofonts">
-      <a class="contacts-mail" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
+    <header class="menu-decoration">
+      <a class="logo-top" href="/WebStudio"
+        ><span class="logo-secondary">Web</span>Studio</a
       >
-      <a class="contacts-phone" href="tel:+48111111111">+48 111 111 111</a>
-    </aside>
-    <header class="service button-panel">
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button type="button">Zamów usługe</button>
+      <nav class="menu robotofonts">
+        <ul class="menu-list">
+          <li class="active-page">
+            <a class="home-page" href="index.html">Agencja</a>
+          </li>
+          <li>
+            <a class="current-page" href="portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="contact-page" href="/kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="robotofonts">
+        <a class="contacts-mail" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="contacts-phone" href="tel:+48111111111">+48 111 111 111</a>
+      </div>
     </header>
+    <section class="service button-panel service-button">
+      <h1 class="service-phrase">
+        EFEKTYWNE ROZWIĄZANIA <br />
+        DLA WASZEGO BIZNESU
+      </h1>
+      <button type="button">Zamów usługe</button>
+    </section>
     <main>
-      <section>
-        <ul>
+      <section class="our-strengths section container">
+        <ul class="list">
           <li>
             <h2 class="text-title">LOREM IPSUM</h2>
             <p class="text-description">
@@ -69,82 +79,79 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section container">
         <h2 class="homepage-secondary-title">Czym się zajmujemy</h2>
-        <img
-          src="images/services/img.jpg"
-          alt="kodowanie"
-          width="370"
-          height="294"
-        />
-        <img
-          src="images/services/laptop.jpg"
-          alt="laptop"
-          width="370"
-          height="294"
-        />
-        <img
-          src="images/services/tablet.jpg"
-          alt="tablet"
-          width="370"
-          height="294"
-        />
+        <div class="what-we-do">
+          <img
+            src="images/services/img.jpg"
+            alt="kodowanie"
+            width="370"
+            height="294" />
+          <img
+            src="images/services/laptop.jpg"
+            alt="laptop"
+            width="370"
+            height="294" />
+          <img
+            src="images/services/tablet.jpg"
+            alt="tablet"
+            width="370"
+            height="294" />
+        </div>
       </section>
-      <section>
-        <h2 class="homepage-secondary-title">Nasz zespół</h2>
-        <ul>
-          <li>
-            <img
-              src="images/employees/designer.jpg"
-              alt="uśmiechnięty mężczyzna z brodą w okularach"
-              width="270"
-              height="260"
-            />
-            <p class="employee-list">John Doe</p>
-            <p class="employee-description">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="images/employees/developer.jpg"
-              alt="uśmiechnięta kobieta w okularach"
-              width="270"
-              height="260"
-            />
-            <p class="employee-list">John Doe</p>
-            <p class="employee-description">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="images/employees/marketing.jpg"
-              alt="uśmiechnięty mężczyzna"
-              width="270"
-              height="260"
-            />
-            <p class="employee-list">John Doe</p>
-            <p class="employee-description">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/employees/john.jpg"
-              alt="uśmiechnięty mężczyzna w okularach"
-              width="270"
-              height="260"
-            />
-            <p class="employee-list">John Doe</p>
-            <p class="employee-description">UI Designer</p>
-          </li>
-        </ul>
+      <section class="our-team-color section">
+        <div class="container">
+          <h2 class="homepage-secondary-title">Nasz zespół</h2>
+          <ul class="our-team list">
+            <li>
+              <img
+                src="images/employees/designer.jpg"
+                alt="uśmiechnięty mężczyzna z brodą w okularach"
+                width="270"
+                height="260" />
+              <p class="employee-list">John Doe</p>
+              <p class="employee-description">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="images/employees/developer.jpg"
+                alt="uśmiechnięta kobieta w okularach"
+                width="270"
+                height="260" />
+              <p class="employee-list">John Doe</p>
+              <p class="employee-description">Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="images/employees/marketing.jpg"
+                alt="uśmiechnięty mężczyzna"
+                width="270"
+                height="260" />
+              <p class="employee-list">John Doe</p>
+              <p class="employee-description">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="images/employees/john.jpg"
+                alt="uśmiechnięty mężczyzna w okularach"
+                width="270"
+                height="260" />
+              <p class="employee-list">John Doe</p>
+              <p class="employee-description">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="bottom-information">
       <a class="logo-bottom" href="/WebStudio"
         ><span class="logo-secondary">Web</span>Studio</a
       >
-      <address>
+      <address class="bottom-contact">
         m. Warszawa, Aleje Jerozolimskie 21
         <a class="bottom-mail" href="mailto:info@example.com"
           >info@example.com</a
-        ><br />
+        >
         <a class="bottom-phone" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
