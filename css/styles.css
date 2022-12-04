@@ -1,0 +1,159 @@
+:root {
+  --brand-color: rgba(33, 150, 243, 1);
+  --descriprion-color: rgba(117, 117, 117, 1);
+  --main-background-color: rgba(255, 255, 255, 1);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(33, 33, 33, 1);
+}
+
+.logo-top,
+.logo-bottom {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+
+.menu .home-page,
+.menu .current-page,
+.menu .contact-page {
+  text-decoration: none;
+  color: rgba(33, 33, 33, 1);
+}
+
+.menu .home-page:hover,
+.menu .current-page:hover,
+.menu .contact-page:hover,
+.menu .home-page:focus,
+.menu .current-page:focus,
+.menu.contact-page:focus {
+  color: var(--brand-color);
+}
+
+.robotofonts .home-page,
+.robotofonts .current-page,
+.robotofonts .contact-page,
+.robotofonts .contacts-mail,
+.robotofonts .contacts-phone {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.logo-secondary,
+.active-page .current-page,
+.active-page .home-page {
+  color: var(--brand-color);
+}
+
+.contacts-mail,
+.contacts-phone {
+  text-decoration: none;
+  color: var(--descriprion-color);
+}
+
+.button-panel {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 6px 22px 6px 22px;
+}
+
+.button-panel button {
+  border: 4px rgba(245, 244, 250, 1) solid;
+}
+
+.button-panel button:hover,
+.button-panel button:focus {
+  border: var(--brand-color) 4px solid;
+  background-color: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+  color: var(--main-background-color);
+  cursor: pointer;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-description {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--descriprion-color);
+}
+
+.bottom-information,
+.logo-bottom {
+  color: var(--main-background-color);
+  background: rgba(47, 48, 58, 1);
+}
+
+[bottom-information] {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.bottom-mail,
+.bottom-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+[href="tel:+48111111111"] {
+  text-decoration-line: none;
+}
+
+.service {
+  background-color: rgba(47, 48, 58, 1);
+  color: var(--main-background-color);
+  font-weight: 900;
+  font-size: 2.7rem;
+  line-height: 1.36;
+}
+
+.text-title {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.text-description {
+  color: rgba(117, 117, 117, 1);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.homepage-secondary-title {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.employee-list {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.employee-description {
+  color: rgba(117, 117, 117, 1);
+  font-size: 1rem;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
